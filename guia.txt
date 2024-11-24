@@ -1,0 +1,17 @@
+Guía de Uso:
+1. Agregar un gasto:
+
+    1.- Escribe el nombre del gasto en el campo "Nombre del gasto".
+    2.- Escribe el valor del gasto en el campo "Valor del gasto".
+    3.- Haz clic en el botón "Agregar Gasto".
+2. Editar un gasto:
+
+    1.- Haz clic en el botón "Editar" al lado del gasto que deseas modificar.
+    2.- Los valores del gasto se cargarán en los campos de entrada.
+    3.- Modifica los valores y haz clic nuevamente en "Agregar Gasto".
+3. Eliminar un gasto:
+
+    1.- Haz clic en el botón "Eliminar" al lado del gasto que deseas quitar.
+4. Ver el total:
+
+    1.- El total de los gastos registrados se muestra automáticamente en la sección "Total Mensual".
