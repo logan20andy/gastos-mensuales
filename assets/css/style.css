@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background: url('../img/codigo.svg'), linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+input[type="text"],
+input[type="number"] {
+    font-size: 1rem;
+    width: calc(100% - 20px);
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: #1875E8;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: #d34b1151 1px 2px;
+}
+h1 span{
+    color: #d2cf31;
+    font-weight: 600;
+    font-style: bold;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos específicos para la lista */
+.container-ul {
+    list-style-type: none;
+    padding: 15px;
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: #041832;
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container-ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #0b2a50;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-ul li button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #e63946;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container-ul li button:hover {
+    background-color: #c9d311;
+    color: #041832;
+}
+
+/* Estilos principales de la página */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(20, 68, 128, 0.3), rgba(20, 68, 128, 0.3)),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    border-radius: 24px;
+    color: white;
+    box-shadow: 4px 4px 20px 0px #01080E26;
+    border: 1px solid #1875E8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 860px;
+    min-height: 50vh;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container-ul li {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .container {
+        gap: 15px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        width: 80%;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    .img-container img {
+        width: 80%;
+    }
+
+    .total {
+        font-size: 1.2rem;
+    }
+}
