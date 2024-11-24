@@ -38,13 +38,14 @@ button {
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: white;
     text-align: center;
     text-shadow: #d34b1151 1px 2px;
 }
 h1 span{
+    font-size: 2rem;
     color: #d2cf31;
     font-weight: 600;
     font-style: bold;
@@ -184,6 +185,12 @@ button:hover {
 
     .img-container img {
         width: 80%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h1 span{
+        font-size: 1.2rem;
     }
 
     .total {
