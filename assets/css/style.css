@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
     font-family: "Poppins", sans-serif;
-    background: url('../img/codigo.svg'), linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    /* background: url('../img/codigo.svg'), linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%); */
+    background: url('../img/fondo.webp'), linear-gradient(#1354A5 0%, #041832 33.33%, #14202e 66.67%, #000000 100%);
+    opacity: 50% black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +31,9 @@ input[type="number"] {
 button {
     padding: 10px 40px;
     background-color: #1875E8;
+    border-radius: 10px;
     color: #fff;
+    font-weight: normal;
     font-size: 1rem;
     border: none;
     border-radius: 4px;
@@ -63,15 +67,15 @@ button:hover {
     overflow-y: auto;
     width: 100%;
     max-width: 600px;
-    background-color: #041832;
+    background-color: #000000;
     border-radius: 12px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px rgba(0, 0, 0, 0.3);
 }
 
 .container-ul li {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #0b2a50;
+    background-color: #501d0b;
     border-radius: 8px;
     color: white;
     font-size: 1rem;
@@ -93,8 +97,8 @@ button:hover {
 }
 
 .container-ul li button:hover {
-    background-color: #c9d311;
-    color: #041832;
+    background-color: #4cae4c;;
+
 }
 
 /* Estilos principales de la página */
