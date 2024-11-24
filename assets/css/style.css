@@ -3,7 +3,7 @@ body {
     font-family: "Poppins", sans-serif;
     /* background: url('../img/codigo.svg'), linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%); */
     background: url('../img/fondo.webp'), linear-gradient(#1354A5 0%, #041832 33.33%, #14202e 66.67%, #000000 100%);
-    opacity: 50% black;
+    opacity: 90% black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,12 +112,12 @@ button:hover {
     min-height: 80vh;
     margin: 20px auto;
     padding: 20px;
-    background: linear-gradient(0deg, rgba(20, 68, 128, 0.3), rgba(20, 68, 128, 0.3)),
-        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background: linear-gradient(0deg, rgba(0, 0, 1, 0.404), rgba(20, 68, 128, 0.3)),
+        linear-gradient(0deg, rgba(134, 4, 4, 0.151), rgba(2, 0, 0, 0.05));
     border-radius: 24px;
     color: white;
     box-shadow: 4px 4px 20px 0px #01080E26;
-    border: 1px solid #1875E8;
+    border: 2px solid #1875E8;
 }
 
 .container {
